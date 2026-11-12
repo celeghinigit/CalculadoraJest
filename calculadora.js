@@ -10,8 +10,10 @@ function multiplicar(a,b){
     return 0;
 }
 
-function dividir(a,b){
-    return 0;
+function dividir(a,b) {
+if (b === 0) {
+return NaN;
 }
-
+return a / b;
+        }
 module.exports = {somar, subtrair, multiplicar, dividir};
